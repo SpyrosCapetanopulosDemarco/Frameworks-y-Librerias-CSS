@@ -1,18 +1,30 @@
-body
-{
-    padding: 0px;
-    height: 100px;
-    background-color: #e5e5e5;
+body {
+  padding: 0px;
+  height: 100px;
+  background-color: #e5e5e5;
 }
-.main-color
-{
+
+img {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.main-color {
   background-color: white;
 }
-.aSocial
-{
+
+.aSocial {
   margin-top: 5%;
 }
-.nav-bar-center
-{
+
+.nav-bar-center {
   text-align: center;
+}
+
+.bodyContenido {
+  background-color: white;
+  -webkit-border-radius: 5px 10px;
+  /* Safari  */
+  -moz-border-radius: 5px 10px;
+  /* Firefox */
 }

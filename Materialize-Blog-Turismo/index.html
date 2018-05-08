@@ -1,17 +1,229 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
 
-  <body>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Spyros Capetanopulos Demarco" />
+  <meta name="keywords" content="Turismo, Chile, Blog" />
+  <meta name="description" content="Evaluacion final Frameworks y Librerías CSS" />
+  <title>Materialize - Blog de Turismo</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <!--Let browser know website is optimized for mobile-->
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="capa-transparente">
+    <div class="row" id="cabecera">
+      <div class="col s12">
+        <div class="row">
+          <div class="col l4 m4 s12">
+            <div class="logo">
+              <img src="img/logo.jpg" alt="Imagen" class="responsive-img z-depth-5">
+            </div>
+          </div>
+          <div class="col l8 m8 s12">
+            <div class="row">
+              <div class="col s12" id="menu">
+                <a href="#" class="btn btn-small blue darken-4 waves-effect">
+                  <i class="material-icons left">store</i> INICIO</a>
+                <a href="#" class="btn btn-small blue darken-4 waves-effect">
+                  <i class="material-icons left">location_on</i> ESTUVE EN...</a>
+                <a href="#" class="btn btn-small blue darken-4 waves-effect">
+                  <i class="material-icons left">grade</i> MEJORES VIAJES</a>
+                <a href="#" class="btn btn-small blue darken-4 waves-effect">
+                  <i class="material-icons left">comment</i> RECOMENDACIONES</a>
+              </div>
+              <div class="col s12 white-text" id="titulo">
+                Chile Naturaleza Abierta
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="row">
+          <div class="col l1 m12 s12">
+            <div class="row">
+              <div class="col l12 m2 s2 offset-s1">
+                <a href="#" title="Facebook">
+                  <img src="img/facebook.svg" alt="Imagen" class="circle responsive-img z-depth-5" id="redes">
+                </a>
+              </div>
+              <div class="col l12 m2 s2">
+                <a href="#" title="Facebook">
+                  <img src="img/google.svg" alt="Imagen" class="circle responsive-img z-depth-5" id="redes">
+                </a>
+              </div>
+              <div class="col l12 m2 s2">
+                <a href="#" title="Facebook">
+                  <img src="img/twitter.svg" alt="Imagen" class="circle responsive-img z-depth-5" id="redes">
+                </a>
+              </div>
+              <div class="col l12 m2 s2">
+                <a href="#" title="Facebook">
+                  <img src="img/instagram.svg" alt="Imagen" class="circle responsive-img z-depth-5" id="redes">
+                </a>
+              </div>
+              <div class="col l12 m2 s2">
+                <a href="#" title="Facebook">
+                  <img src="img/youtube.svg" alt="Imagen" class="circle responsive-img z-depth-5" id="redes">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col l4 m4 s12">
+            <div class="row">
+              <div class="col s12">
+                <div>
+                  <img src="img/norte_de_chile.jpg" alt="Imagen" class="responsive-img z-depth-5">
+                </div>
+              </div>
+              <div class="col s12">
+                <div>
+                  <img src="img/chiloe.jpg" alt="Imagen" class="responsive-img z-depth-5">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col l4 m4 s12">
+            <div class="row">
+              <div class="col s12">
+                <div>
+                  <img src="img/torres-del-paine.jpg" alt="Imagen" class="responsive-img z-depth-5">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col l3 m3 s12">
+            <div class="row">
+              <div class="col s12">
+                <div>
+                  <img src="img/Lago-Chungara.jpg" alt="Imagen" class="responsive-img z-depth-5">
+                </div>
+              </div>
+              <div class="col s12">
+                <div>
+                  <img src="img/patagonia.jpg" alt="Imagen" class="responsive-img z-depth-5">
+                </div>
+              </div>
+              <div class="col s12">
+                <div>
+                  <img src="img/Antartica.jpg" alt="Imagen" class="responsive-img z-depth-5">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="row">
+          <div class="col l9 m9 s12">
+            <div class="row">
+              <div class="col s12 white z-depth-5" id="articulo">
+                <div class="imgArticulo">
+                  <img src="img/punta-de-lobos-pichilemu.jpg" alt="Imagen" class="responsive-img z-depth-5">
+                </div>
+                <h4>Punta de Lobos - Pichilemu</h4>
+                <div class="chip">
+                  03 de febrero del 2017
+                  <i class="close material-icons">today</i>
+                </div>
+                <div class="chip">
+                  Pichilemu - Region de O'Higgins - Chile
+                  <i class="close material-icons">location_on</i>
+                </div>
+                <p>
+                  Pichilemu (en mapudungun: pichilemu, ‘bosque pequeño’) es una ciudad y comuna de la zona central de Chile, en la región de
+                  O'Higgins. Es la capital de la provincia de Cardenal Caro. Integra junto con las comunas de Placilla, Nancagua,
+                  Chépica, Santa Cruz, Pumanque, Palmilla, Peralillo, Navidad, Lolol, Litueche, La Estrella, Marchigüe y
+                  Paredones el Distrito Electoral N° 35 y pertenece a la 9ª Circunscripción Senatorial (O'Higgins). La playa
+                  de Pichilemu es una zona de práctica de surf, específicamente el sector de Punta de Lobos, donde por sus
+                  break points se han desarrollado campeonatos con participación y relevancia internacional que han provocado
+                  que Pichilemu sea nombrada la Capital Mundial del Surf
+                </p>
+                <p>
+                  Pichilemu fue en principio un caserío de originarios que vivían de la pesca y la recolección. Sus pobladores al momento del
+                  contacto con los conquistadores hispanos, eran indígenas de lengua mapuche de la cultura aconcagua, los
+                  que de acuerdo a la nomenclatura espacial mapuche corresponden a picunches a quienes los invasores incas,
+                  anteriores a los españoles, denominaron promaucaes, y que habitaban la región comprendida entre los ríos
+                  Cachapoal y Maule. El historiador José Toribio Medina, en su obra "Los Restos Indígenas de Pichilemu",
+                  dice que don Pedro de Valdivia habría concedido la encomienda de Topocalma el 24 de febrero de 1544, a
+                  don Juan Gómez de Almagro, habiéndole dicho: Depósito en vos los caciques Palloquierbico, Topocalma y Gaulaquien,
+                  que son las provincias de los Promaucaes, ubicadas en la costa. En esa encomienda debió encontrarse Pichilemu.
+                </p>
+                <p>
+                  Punta de Lobos es una playa chilena ubicada a 6 km al sur de Pichilemu y 177 km al suroeste de Rancagua, en la provincia
+                  de Cardenal Caro, región de O'Higgins. Además de la fina arena gris, su principal característica es que
+                  está rodeada por grandes acantilados que llegan hasta unos 50 metros de altura aproximadamente y sus singulares
+                  roqueríos que son frecuentados por lobos marinos; de ahí su nombre. La extensión de su playa y su ubicación
+                  la hacen apta para el baño, la pesca de orilla, además de ser un lugar ideal para la práctica del surf
+                  y kiteboarding, sobre todo en invierno. Las olas de Punta de Lobos oscilan entre los dos y tres metros
+                  de altura, y permite a los practicantes de surf escoger olas izquierdas de excelente calidad. Según la
+                  época del año, las olas oscilan entre los 8 y 10 metros de altura, en ocasiones con más altura para las
+                  expectativas de los competidores en el Big Wave World Tour (BWWT) 2012. En 2013, fue nombrada reserva mundial
+                  de surf.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 white-text blue lighten-1 z-depth-5" id="form-comentario">
+                <h5>Deja tu comentario</h5>
+                <form>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">perm_identity</i>
+                    <input type="text" name="nombre" class="validate" id="nombre">
+                    <label for="nombre" class="white-text">Nombre</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">email</i>
+                    <input type="email" name="correo" class="validate" id="email">
+                    <label for="email" class="white-text " data-success="Correcto" data-error="Debes completar este campo">Correo electronico</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">chat_bubble_outline</i>
+                    <textarea name="comentario" rows="8" class="materialize-textarea" id="comentario"></textarea>
+                    <label for="comentario" class="white-text">Comentario</label>
+                    <input type="submit" name="enviar" value="Enviar" class="btn btn-small white waves-effect blue-text">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col l3 m3 s12">
+            <div class="row">
+              <div class="col s12 white z-depth-5" id="perfil">
+                <div class="section">
+                  <div>
+                    <img src="img/surfers.jpg" alt="Imagen" class="circle responsive-img z-depth-5">
+                  </div>
+                  <h4>Ramon Navarro</h4>
+                  <div class="divider"></div>
+                  <p>
+                    El máximo exponente del surf nacional y protagonista del documental El hijo del pescador convirtió un pasatiempo en su profesión.
+                    Hoy es, además, un activista de la conservación y el medioambiente que pide respeto por el océano. Sus
+                    más recientes peleas son contra el plástico en las playas y por la conservación del mirador de Punta
+                    de Lobos, en Pichilemu.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
 </html>
